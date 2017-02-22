@@ -1,8 +1,100 @@
-.navbar {
+* {
+  margin: 0;
+  pading: 0;
+}
+
+body {
+  font-family: tahoma;
+}
+
+header {
+  background-image: linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .7)), url("../images/main_image.jpeg");
+  height: 100vh; /** CSS3, size element to be full width of viewport **/
+}
+
+.mainCaption {
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-20%, -20%); /** moves the position of the element **/
+}
+
+.mainCaption h1 {
+  color: #ffffff;
+}
+
+.mainCaption h1 small {
+  color: #ffffff;
+}
+
+.navBar {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.mainNav {
+  float: right;
+  list-style: none;
+  margin-top: 50px;
+}
+
+.mainNav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.mainNav li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 90%;
+  font-weight: bold;
+}
+
+.mainNav li a:hover {
+  color: #caab52;
+  border-bottom: 2px solid #caab52;
+  transition: all 0.3s ease-in;
+  padding: 10px 0;
+}
+
+.logo img {
+  height: 40px;
+  float: left;
+  margin-top: 40px;
+}
+
+.btn {
+  border: 1px solid #caab52;
+  border-radius: 10px;
+  padding: 10px 30px;
+  color: #caab52;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.btn-show {
+  background-color: #caab52;
+  color: #ffffff;
+}
+
+.btn-hungry:hover {
+  background-color: #caab52;
+  color: #ffffff;
+  transition: all 0.3s ease-in;
+}
+
+.button-moreInfo {
+  margin-top: 40px;
+
+}
+
+
+/*.navbar {
   border: 0;
   border-radius: 0;
 }
 
 footer .navbar-default {
   background: transparent;
-}
+}*/
