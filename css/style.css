@@ -100,6 +100,7 @@ header {
 }
 .page-header h3 {
   text-transform: uppercase;
+
 }
 
 .featuresHeader {
@@ -128,4 +129,47 @@ header {
 
 #features h4 {
   text-align: center;
+}
+
+.menuShowcase {
+  list-style: none;
+  width: 100%;
+
+}
+
+.menuShowcase li {
+  display: block;
+  width: 24%;
+  float: left;
+}
+
+.mealImage {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.mealImage img {
+  width: 100%;
+  height: auto;
+  padding: 0 !important;
+  margin: 0 !important;
+  transform: scale(1.15);
+  transition: all 0.5s;
+}
+
+.mealImage img:hover {
+  transform: scale(1.05); /** hover effect **/
+}
+
+.phone {
+  text-align: center;
+  padding: 5px 5px;
+}
+
+.howtoOrder {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  font-weight: 700;
 }
