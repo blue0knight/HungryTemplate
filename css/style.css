@@ -31,7 +31,7 @@ header {
 }
 
 .navBar {
-  max-width: 1140px;
+  /*max-width: 1140px;*/
   margin: 0 auto;
 }
 
@@ -174,7 +174,9 @@ header {
 }
 
 .phone img {
-  height: 500px;
+  height: 300px;
+  width: 250px;
+  margin-top: 130px;
 }
 
 .howtoOrder img {
@@ -196,8 +198,38 @@ header {
 
 }
 
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
 .stepDescription {
   text-align: justify;
+}
+
+
+#areas h4, p {
+  text-align: center;
+}
+
+.areasImages {
+  text-align: center;
+}
+
+#areas img {
+  margin-bottom: 20px;
+}
+
+#areas i {
+  color: #caab52;
+}
+
+#areas {
+  margin-bottom: 100px;
 }
 
 #areas h4, p {
@@ -214,4 +246,35 @@ header {
 
 #areas i {
   color: #caab52;
+}
+
+.feedbacksBg {
+  padding-top: 3px;
+  background-image: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .1)), url("../images/bgFeedback.jpeg");
+  background-attachment: fixed; /** for parralax effect **/
+}
+
+#feedbacks {
+  margin-bottom: 100px;
+  color: white;
+}
+
+.quote {
+  text-align: justify;
+
+}
+
+.author {
+  text-align: center;
+}
+
+#feedbacks img {
+  text-align: center !important;
+  margin-right: 10px;
+}
+
+#feedbacks cite img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px
 }
