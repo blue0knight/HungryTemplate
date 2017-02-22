@@ -167,9 +167,51 @@ header {
   padding: 5px 5px;
 }
 
-.howtoOrder {
+.howtoOrder  h4 {
   text-align: center;
-  margin-top: 100px;
   margin-bottom: 40px;
   font-weight: 700;
+}
+
+.phone img {
+  height: 500px;
+}
+
+.howtoOrder img {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  margin-top: 30px;
+}
+
+.stepNumber {
+  border: 1px solid #caab52;
+  display: inline-block;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: #caab52;
+  text-align: center;
+  line-height: 30px;
+
+}
+
+.stepDescription {
+  text-align: justify;
+}
+
+#areas h4, p {
+  text-align: center;
+}
+
+.areasImages {
+  text-align: center;
+}
+
+#areas img {
+  margin-bottom: 20px;
+}
+
+#areas i {
+  color: #caab52;
 }
