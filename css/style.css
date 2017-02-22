@@ -10,14 +10,16 @@ body {
 header {
   background-image: linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .7)), url("../images/main_image.jpeg");
   height: 100vh; /** CSS3, size element to be full width of viewport **/
+  background-position: center;
+  background-size: cover;
 }
 
 .mainCaption {
+  text-align: center;
   position: absolute;
-  width: 1140px;
   top: 50%;
   left: 50%;
-  transform: translate(-20%, -20%); /** moves the position of the element **/
+  transform: translate(-40%, -20%); /** moves the position of the element **/
 }
 
 .mainCaption h1 {
@@ -67,6 +69,7 @@ header {
 .btn {
   border: 1px solid #caab52;
   border-radius: 10px;
+  width: 160px; /** consistent width of button **/
   padding: 10px 30px;
   color: #caab52;
   text-decoration: none;
@@ -89,12 +92,40 @@ header {
 
 }
 
-
-/*.navbar {
-  border: 0;
-  border-radius: 0;
+.page-header {
+  margin-top: 80px;
+  margin-bottom: 30px;
+  text-align: center;
+  border-bottom-color: transparent;
+}
+.page-header h3 {
+  text-transform: uppercase;
 }
 
-footer .navbar-default {
-  background: transparent;
-}*/
+.featuresHeader {
+  margin-top: 20px;
+}
+
+.page-header h3:after {
+  width: 110px;
+  height: 2px;
+  background-color: #caab52;
+  display: block;
+  content: " ";
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.featuresText {
+  text-align: justify;
+}
+
+#features i {
+  margin-left: 40%;
+  margin-bottom: 10px;
+  color: #caab52;
+}
+
+#features h4 {
+  text-align: center;
+}
