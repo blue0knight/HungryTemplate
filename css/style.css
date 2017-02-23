@@ -121,22 +121,49 @@ header {
 }
 
 .mealImage {
-  width: 100%;
-  margin: 0;
+  position: relative;
+  max-width: 300px;
+  max-height: 300px;
   overflow: hidden;
 }
 
 .mealImage img {
-  width: 100%;
-  height: auto;
+  max-width: 300px;
+  max-height: 300px;
   padding: 0 !important;
   margin: 0 !important;
   transform: scale(1.15);
   transition: all 0.5s;
+  display: block;
+
+}
+
+.mealImage .description {
+    opacity: 0;
+    position: absolute;
+    bottom: 50%;
+    left: 0px;
+    right: 0px;
+    padding: 2px 0px;
+    color: #ffffff;
+    background: #000000;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+
 }
 
 .mealImage img:hover {
-  transform: scale(1.05); /** hover effect **/
+  transform: scale(1.05);
+  transition: all 0.5s;
+}
+
+.mealImage:hover .description {
+  transform: scale(1.02); /** hover effect **/
+  opacity: 0.4;
 }
 
 .phone {
