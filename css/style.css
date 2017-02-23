@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  pading: 0;
+  padding: 0;
 }
 
 body {
@@ -36,37 +36,11 @@ header {
   margin: 0 auto;
 }
 
-.mainNav {
-  float: right;
-  list-style: none;
-  margin-top: 50px;
-  margin-right: 120px;
-}
-
-.mainNav li {
-  display: inline-block;
-  margin-left: 20px;
-}
-
-.mainNav li a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 90%;
-  font-weight: bold;
-}
-
-.mainNav li a:hover {
-  color: #caab52;
-  border-bottom: 2px solid #caab52;
-  transition: all 0.3s ease-in;
-  padding: 10px 0;
-}
-
 .logo img {
   height: 30px;
-  float: left;
+  float: right;
   margin-top: 40px;
-  margin-left: 120px;
+  margin-right: 120px;
 }
 
 .btn {
@@ -280,4 +254,53 @@ header {
   width: 50px;
   height: 50px;
   border-radius: 50px
+}
+
+.contactBg {
+  padding-top: 3px;
+  background-image: linear-gradient(rgba(255,255,255, .7), rgba(255,255,255, .7)), url("../images/bgContact.jpeg");
+  background-attachment: fixed; /** for parralax effect **/
+}
+
+#contact {
+  margin-bottom: 100px;
+}
+
+.btn-submit {
+background-color: #caab52;
+color: #ffffff;
+}
+
+.bottomNav {
+  float: left;
+  list-style: none;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.bottomNav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.bottomNav li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 90%;
+  font-weight: bold;
+}
+
+.bottomNav li a:hover {
+  color: #caab52;
+  border-bottom: 2px solid #caab52;
+  transition: all 0.3s ease-in;
+  padding: 10px 0;
+}
+
+.copyright {
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
